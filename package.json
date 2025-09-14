@@ -2,7 +2,7 @@
   "name": "blogging-website",
   "version": "1.0.0",
   "description": "My Blogging Website project",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel serve index.html",
     "build": "parcel build index.html --no-cache --dist-dir build --public-url ./"
