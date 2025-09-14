@@ -30,7 +30,7 @@ jobs:
           npm install
 
       - name: Build with Parcel
-        run: npx parcel build ./index.html --no-cache --dist-dir build
+        run: npx parcel build ./index.html --no-cache --dist-dir build --public-url ./
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
