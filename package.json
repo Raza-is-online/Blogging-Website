@@ -2,10 +2,10 @@
   "name": "blogging-website",
   "version": "1.0.0",
   "description": "My Blogging Website project",
-  "source": "index.html",
+  "main": "index.html",
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html --no-cache --dist-dir build"
+    "build": "parcel build index.html --no-cache --dist-dir build --public-url ./"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
